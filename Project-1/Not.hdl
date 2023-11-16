@@ -1,15 +1,15 @@
 // This file is part of www.nand2tetris.org
 // and the book "The Elements of Computing Systems"
 // by Nisan and Schocken, MIT Press.
-// File name: projects/01/And.hdl
-/**
- * And gate:
- * out = (((a == 1) && (b == 1))), 1, 0) 
+// File name: projects/01/Not.hdl
+ /**
+ * Not gate:
+ * out = ((in == 0), 1, 0)
  */
-CHIP And {
-    IN a, b;
+CHIP Not {
+    IN in;
     OUT out;
-    
+
     PARTS:
     //// Replace this comment with your code.
 }
